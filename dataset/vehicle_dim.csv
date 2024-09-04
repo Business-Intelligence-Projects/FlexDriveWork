@@ -1,0 +1,18 @@
+Unit_Name,average emission,fuel type,engine model,Car_Model,Car_Brand,VIN
+ktc-NMK33C,0,Electric,-----,EV9,Kia,KNAAE815XR6012646
+KTC5-WER8,0,Electric,-----,I3s,BMW,bmwbmwbmw
+KTC6-GFH66M,0,Electric,-----,EV9,Kia,KNAAE8158R6012354
+ktc10-rzr46h,0,Electric,EBJAL1F,ID.3,Volkswagen,WVWZZZE1ZMP056409
+ktc11-NBL2demo,0,Electric,EBJAL1F,EV6,Kia,KNAC481CPP5136203
+ktc14-kyp50g,149.43,Electric,EBJA,ID.4,Volkswagen,WVGZZZE2ZMP018875
+ktc15-SCO812-C5-nyPIX,149.43,Electric,EBJA,"3008, 5008",Peugeot,-----
+ktc16-UNS-EV6,0,Electric,EBJA,EV6,Kia,KNAC481CPP5136203
+ktc17-FBL_Flexdrive,149.43,Electric,EBJAL1F,ID.3,Volkswagen,WVWZZZE1ZMP020411
+ktc18-mb_tdk,149.43,Diesel,EBJAL1F,E 300,Mercedes-Benz,W1K2132111A935787
+ktcx2-BJE82J,-----,Electric,EBJAL1F,2,Polestar,YSMVSEFE6PL134203
+"ktcx3-HUH30 (20240322 (huh30y, ysj69T, MNB38S))",143.7,Gasoline,EBJAL1F,"3008, 5008",Peugeot,-----
+ktcx4-YSJ69X,-----,Gasoline,EBJAL1F,"3008, 5008",Peugeot,VF3MRHNSUPS100849
+"ktcx5-MHF48D (YEF42E_daro,Comera_nercia)",143.7,Gasoline,EBJAL1F,"3008, 5008",Peugeot,VF3MRHNSUPS143646
+ktcx8-zcj126,0,Electric,EBJAL1F,ID.3,Volkswagen,WVWZZZE1ZNP007173
+ktcx12-WBB38D,143.7,Gasoline,EBJAL1F,"3008, 5008",Peugeot,VF3MRHNSUPS100849
+ktcx13-FREE (XGD96),-----,Gasoline,EBJAL1F,"3008, 5008",Peugeot,VF3MRHNSUPS100849

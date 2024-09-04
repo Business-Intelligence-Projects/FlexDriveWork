@@ -1,0 +1,96 @@
+Background = 112231
+Card Background = 17293A
+Card Border = FFFFFF
+Rounded Corner = 15px
+Selection = 00CC4F
+
+
+
+BusiestWeekdayforSelectedVIN = 
+VAR SelectedVIN = [SelectedVIN]
+VAR MaxDuration =
+    CALCULATE(
+        MAXX(
+            VALUES(fact_trips[Weekday]),
+            [TotalDurationbyWeekdayforSelectedVIN]
+        ),
+        fact_trips[VIN] = SelectedVIN
+    )
+VAR BusiestWeekday = 
+    CALCULATE(
+        MAX(fact_trips[Weekday]),
+        FILTER(fact_trips, fact_trips[VIN] = SelectedVIN),
+        FILTER(fact_trips, [TotalDurationbyWeekdayforSelectedVIN] = MaxDuration)
+    )
+RETURN BusiestWeekday
+
+No	
+NBLbutton1	
+cardID	
+Beginning	
+End	
+Mileage	
+Duration	
+Driver	
+Urban mileage	
+Suburban mileage	
+Initial mileage	
+Final mileage	
+CO2 emission	
+Avg speed	
+Max speed	
+Consumed	
+Initial fuel level	
+Final fuel level	
+Max fuel level	
+Min fuel level	
+Penalties	
+Rank	
+Initial battery level (Oem EV battery charge State)	
+Initial battery level (EV Battery level OEM)	
+Final battery level (Oem EV battery charge State)	
+Final battery level (EV Battery level OEM)	
+Max. battery level (Oem EV battery charge State)	
+Max. battery level (EV Battery level OEM)	
+Min. battery level (Oem EV battery charge State)	
+Min. battery level (EV Battery level OEM)	
+Mileage (adjusted)	
+Initial value of custom sensor (Battery)	
+Initial value of custom sensor (Private two)	
+Initial value of custom sensor (External power)	
+Initial value of custom sensor (VIN)	
+Initial value of custom sensor (Status sensor)	
+Initial value of custom sensor (VIN_RSN)	
+Initial value of custom sensor (Fuel Type)	
+Initial value of custom sensor (ICCid)	
+Initial value of custom sensor (io_15)	
+Initial value of custom sensor (CardnumberDriver)	
+Initial value of custom sensor (New sensor test)	
+Initial value of custom sensor (NBL-button1)	
+Initial value of custom sensor (NBL-button2)	
+Initial value of custom sensor (NBL Macadress)	
+Initial value of custom sensor (Odo389)	
+Initial value of custom sensor (OEM EV Battery State of Health)	
+Initial value of custom sensor (OEM EV Battery temperature)	
+Avg. energy consumption	
+Trip Type	
+Status	
+Min temperature (Coolant Temperature)	
+Min temperature (Ambient air temp)	
+Max temperature (Coolant Temperature)	
+Max temperature (Ambient air temp)	
+Initial temperature (Coolant Temperature)	
+Initial temperature (Ambient air temp)	
+Final temperature (Coolant Temperature)	
+Final temperature (Ambient air temp)	
+Avg. fuel consumption	
+Max. speed	
+Energy consumed	VIN	
+Weekday	
+WeekOfYear	
+Trip Length Category	
+Trip Duration Category	
+Driver_Name	
+Business_Unit
+
+
